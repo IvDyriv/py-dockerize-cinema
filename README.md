@@ -42,4 +42,9 @@ POST /api/user/register/
   "first_name": "John",
   "last_name": "Doe"
 }
+```
+## Running Tests
 
+```bash
+docker-compose run app sh -c "python manage.py test"
+```
